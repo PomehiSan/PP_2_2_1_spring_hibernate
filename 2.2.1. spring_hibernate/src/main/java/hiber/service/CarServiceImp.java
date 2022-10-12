@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class CarServiceImp implements CarService {
 
     @Autowired
-    CarDao carDao;
+    private CarDao carDao;
 
     @Transactional
     @Override

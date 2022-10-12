@@ -13,7 +13,7 @@ import java.util.List;
 @Repository
 public class UserDaoImp implements UserDao {
    @Autowired
-   SessionFactory sessionFactory;
+   private SessionFactory sessionFactory;
 
    @Override
    public void add(User user) {
